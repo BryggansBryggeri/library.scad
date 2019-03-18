@@ -179,14 +179,14 @@ module zero( header= 0)
   }
 }
 
-if( part == "pi3")
-  pi3();
-else if( part == "hifiberryDacPlus")
-  hifiberryDacPlus(header);
-else if( part == "pi3_hifiberryDacPlus")
-{
-  pi3();
-  hifiberryDacPlus(header);
-}
-else if( part == "piZero")
-  zero(header ? (headerDown ? -1 : 1) : 0);
+//if( part == "pi3")
+//  pi3();
+//else if( part == "hifiberryDacPlus")
+//  hifiberryDacPlus(header);
+//else if( part == "pi3_hifiberryDacPlus")
+//{
+//  pi3();
+//  hifiberryDacPlus(header);
+//}
+//else if( part == "piZero")
+//  zero(header ? (headerDown ? -1 : 1) : 0);
